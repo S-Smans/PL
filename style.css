@@ -6,6 +6,10 @@
   background-color: aliceblue;
 }
 
+html, body {
+  height: 100%;
+}
+
 /* Header */
 header {
   display: flex;
@@ -44,4 +48,23 @@ button:active {
 hr {
   width: 95%;
   margin: auto;
+}
+
+/* Main Content */
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+}
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  padding: 30px
 }
