@@ -1,0 +1,27 @@
+form div{
+  display:grid;
+  grid-template-columns: max-content max-content;
+  grid-gap:25px;
+  padding-bottom: 25px;
+}
+
+form > label {
+  padding-right: 15px;
+}
+
+input {
+  border: 3px solid rgb(121, 121, 121);
+  outline: none;
+}
+
+input:focus {
+  border: 3px solid black;
+}
+
+select {
+  border: 3px solid rgb(121, 121, 121);
+}
+
+select:focus {
+  border: 3px solid black;
+}
