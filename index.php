@@ -24,6 +24,6 @@
   <script>
     const addBtn = document.getElementById("add");
     addBtn.addEventListener("click", () => {
-      location.href = location.href + "/add-product.php";
+      location.href = location.href + "add-product.php";
     });
   </script>

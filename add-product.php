@@ -1,6 +1,7 @@
 <?php include_once "./include/header.inc.php"; ?>
 
 <link rel="stylesheet" href="./css/form.css" />
+<script src="./scripts/script.js" defer></script>
 <title>Product Add</title>
 </head>
 
